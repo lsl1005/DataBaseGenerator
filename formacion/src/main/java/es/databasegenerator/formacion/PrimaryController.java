@@ -24,8 +24,5 @@ public class PrimaryController {
         contador.incrementar();
         incrementalLabel.setText("Contador: " + contador.get() + ".");
     }
-    @FXML
-    private void switchToSecondary() throws IOException {
-        App.setRoot("secondary"); //se encarga de cambiar entre una vista y la otra
-    }
+
 }
